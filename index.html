@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/logoAlura.svg" alt="Logo da Alura">
+    </header>
+
+
+    <main>
+        <!-- <div class="main__container"> -->
+            <section class="section__left">
+                <textarea id="textarea" class="section__left__textarea" cols="30" rows="3" placeholder="Digite o texto:"></textarea>
+                <div class="section__left__informacao">
+                    <img class="section__left__imagem" src="images/exclamacao.svg" alt="">
+
+                    <span class="section__left__informacao">Apenas letras minusculas e sem acento</span>
+                
+                    <div class="section__left__botoes">
+                        <button id="botaoCriptografar" class="botao__criptografar">Criptografar</button>
+                        <button id="botaoDescriptografar" class="botao__descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="secao" class="section__right section__right__texto">
+                <img id="boneco" class="section__right__boneco" src="./images/boneco.svg" alt="">
+
+                <textarea id="mensagem" class="section__right__mensagem section__right__texto" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="informacao" class="section__right__informacao">Digite um texto que você deseja criptografar ou descriptografar</p>
+                <button id="botaoCopiar" class="botao__copiar botao__oculto">Copiar</button>
+            </section>
+        <!-- </div> -->
+    </main>
+
+
+    <footer>
+
+    </footer> 
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
